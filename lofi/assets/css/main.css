@@ -1,0 +1,275 @@
+
+/* (lofigirl) Lofi Girl's Hub */
+
+body.lofigirl {
+	font-family:'Courier New', Courier, monospace;
+	background-color:#b0e9e6e3;
+	font-size:32px;
+}
+
+body.lofigirl{
+	background-image: url(../images/lofi.png);
+
+}
+
+.socialdistancingqueen{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+div.title {
+	color: rgb(238, 247, 215);
+	font-size: 90px;
+	font-style: bold;
+	margin-left: 15px;
+	padding-top: 12.3px;
+	padding-bottom: 10px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: rgb(238, 247, 215);
+	background-color:lightpink;
+	border-radius: 10px;
+}	
+
+
+a:hover {
+	background-color:rgb(238, 247, 215);
+	color:lightpink
+}
+
+/* social distancing queen */
+div.socialdistancingqueen {
+	color: black;
+	display:inline-block;
+	font-family:'Courier New', Courier, monospace;
+	background-color:#b0e9e6e3;
+	font-size: 18px;
+	font-style: bold;
+	margin-left: 900px;
+	margin-right: 55px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	border-radius: 10px;
+}
+	
+div.socialdistancing {
+	color: black;
+	width: 300px;
+	height: 300px;
+	display:inline-block;
+	background-color: white;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 40px;
+	font-size: xx-large;
+	vertical-align:top;
+	margin-left: 1000px;
+}
+
+/* behind the art*/
+
+body.behindtheart {
+	background-color:#b0e9e6e3;		
+}
+
+.behindthearttitle{
+	font-family:'Courier New', Courier, monospace;
+	font-size: 80px;
+	font-style: bold;
+	background-color:lightpink;
+	width: 100%;
+	color: rgb(238, 247, 215);
+	text-align: 10px;
+	margin-left: 90px;
+
+}
+
+.behindtheart{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+div.animatedcharacter {
+	background-color:rgb(238, 247, 215);
+	height: 840px;
+	position:fixed;
+	left: 70%;
+	font-family:'Courier New', Courier, monospace;
+	align-items: left;
+
+	font-size: 23px;
+	margin-top: 0%;
+	margin-bottom: 10%;
+	padding: 5%;
+}	
+
+
+/* (ghibli) Miyazaki-esque Visuals */
+
+.ghibli{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.miyazakititle { 
+	color: lightyellow;
+	font-size: 120px;
+	font-style: bold;
+	background-color:lightpink;
+	display: inline-block;
+	margin-left: 220px;
+	font-family:'Courier New', Courier, monospace;
+}
+
+.whisperimage{
+	width: 50%;
+	padding-left: 40px;
+}
+
+.juanimage{
+	width: 50%;
+}
+
+
+body.ghibli{
+	background-color:#b0e9e6e3;
+	font-family:'Courier New', Courier, monospace;
+	
+}
+
+.miyazakitext{
+	font-size: 18px;
+	text-align: center;
+	background-color: lightgoldenrodyellow;
+	padding:0.8%;
+	border-radius: 10%;
+}
+
+
+/* (social) Social Distancing Queen */
+.social{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.socialtitle{
+	color: lightyellow;
+	font-size: 67px;
+	font-style: bold;
+	background-color:lightpink;
+	text-align:center;
+	font-family:'Courier New', Courier, monospace;
+	padding: 1%;
+	width: 46.5%;
+	height: 850px;	
+	
+}
+
+.socialtitle:hover{
+	background-image: url(../images/social.JPG);
+}
+.socialtext{
+	margin-left:5%;
+	background-color:#b0e9e6e3;
+	padding: 2%;
+font-size: 17px;
+	width:43%;
+	margin-top: 7%;
+	height: 700px;
+	border-radius: 10%;
+
+}
+
+body.social{
+	background-color: lightpink;
+	font-family:'Courier New', Courier, monospace;
+
+}
+
+
+/* (alone) If You Feel Alone */
+
+.alonetext{
+	font-size: 20px;
+	color:rgb(94, 131, 235);
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+body.alone { 
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	background-color:#b0e9e6e3;
+}
+
+.alonetitle{
+	font-size: 100px;
+	background-color:rgb(238, 247, 215);
+	color:lightpink;
+}
+
+.live{
+	font-size:50px;
+	background-color: red;
+	color:white;
+	display: inline-block;
+	width:200px;
+	animation:backgroundchange 1s infinite;
+}
+
+@keyframes backgroundchange {
+	0%{
+		background-color: red;
+	}
+
+	50%{
+		background-color: #b0e9e6e3;;
+	}
+
+
+}
+
+.live:hover{
+	background-color:white;
+}
+
+.alonebulk{
+	font-size: 75px;
+}
+
+
+
+/* (life) Mimicking Real Life Surroundings During Lockdown */
+
+body.life{
+	font-family: 'Courier New', Courier, monospace;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	background-color:#b0e9e6e3;;
+	font-size: 50px;
+}
+
+.virtualreality{
+	font-size: 80px;
+	text-align: center;
+	display: inline-block;
+}
+.virtual{
+	width: 50%;
+	padding-left: 40px;
+}
+
+.travelling{
+	width: 50%;
+	color: lightpink;
+	
+
+}
